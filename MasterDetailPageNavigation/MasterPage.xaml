@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="MasterDetailPageNavigation.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="hamburger.png"
+			 Title="Navigation">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand" Spacing="8" Padding="12">
+			<Label Text="First item" />
+			<Label Text="Second item" />
+			<Label Text="Third item" />
+			<Label Text="Fourth item" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
